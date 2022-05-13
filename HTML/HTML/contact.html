@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact us</title>
+</head>
+<body>
+    <header>
+        <!--
+           Name: Baraa Mohammed Al-Ghussain
+           Id: 120200376
+       -->
+        <img src="../imgs/logo.png" alt="IT logo" width="100px" height="100px" title="IT Faculty in IUG"> 
+        <a href="index.html" title="Home page">Home</a>
+        <a href="about.html" title="more information about me">About me</a>
+        <a href="lecture_table.html" title="My lectures table">Lectures Table</a>
+        <a href="contact.html" title="Send us your problem!">Contact us</a>
+        <a href="location.html" title="IUG location map">Location</a>
+    </header>
+    <br>
+    <hr>
+
+    <fieldset>
+        <legend>Contact us</legend>
+        <form action="" method="GET">
+            <label for="name">Name: </label><br>
+            <input type="text" name="Name" id="name" title="Enter your name!" placeholder="Enter your name..." required>
+            <br><br>
+
+            <label for="num">Mobile: </label><br>            
+            <input type="number" name="num" id="num" title="Enter your Phone number!" placeholder="059-123-4567" required>
+            <br><br>
+
+            <label for="mail">E-mail: </label><br>
+            <input type="email" name="email" id="mail" title="Enter your e-mail!" placeholder="Example@gmail.com">
+            <br><br>
+
+            <label for="problem">What is your problem? </label><br>
+            <textarea name="problem" id="problem" cols="30" rows="6"></textarea>
+            <br><br>
+
+            <label for="">Upload screenshot for the problem</label>
+            <input type="file" name="img" id="pic">
+            <br><br>
+
+
+        <div class="problem_kind">
+            <label >What kind of problims it is?</label><br>
+            <input type="checkbox" name="problem_type" id="htm" value="HTML">
+            <label for="htm">HTML</label><br>
+
+            <input type="checkbox" name="problem_type" id="css" value="CSS">
+            <label for="css">CSS</label><br>
+
+            <input type="checkbox" name="problem_type" id="js" value="JS">
+            <label for="js">Javascript</label>
+        </div><br>
+
+        <label for="fbrowser">What is your favorait browser?</label><br><br>
+        <select name="fbrowser" id="fbrowser">
+            <option value="chrome">Google Chrome</option>
+            <option value="ffox">Fire Fox</option>
+            <option value="edge">Microsoft Edge</option>
+            <option value="brave">Brave</option>
+            <option value="safari">Safari</option>
+        </select>
+
+        <br><br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </form>
+    </fieldset>
+    
+</body>
+</html>
